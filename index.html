@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="editado.css" type="text/css">
+    <link rel="stylesheet" href="main.js">
+    <title>Pagina Web</title>
+
+</head>
+<body>
+    <div class="logo logo_main">
+        <img src="img/Logotipo DENTAL.png" class="imagen">
+            
+    </div>
+        <div class="nav">
+            <div class="wrap">
+                <div class="logo logo_small">Gianident</div>
+                    <nav>   
+                        <ul class="menu">
+                            <li><a href="#">Inicio</a></li>
+                            <li class="forma">|</li>
+                            <li><a href="#">Nosotros</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Reconocimientos</a></li>
+                                    <li><a href="#">Franquicias</a></li>
+                                    <li><a href="#">Convenios</a></li>
+                                </ul>
+                            </li>
+                            <li class="forma">|</li>
+                            <li><a href="#">Servicios</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Emergencias 24 horas</a></li>
+                                    <li><a href="#">Plan Dental</a></li>
+                                    <li><a href="#">Gianident Kids</a></li>
+                                </ul>
+                            </li>
+                            <li class="forma">|</li>
+                            <li><a href="#">Especialidades</a></li>
+                            <li class="forma">|</li>
+                            <li><a href="#">Cita en Línea</a>
+                                <ul class="submenu">
+                                    <li><a href="https://api.whatsapp.com/send?phone=51944212337&text=¿Me%20pueden%20ayudar?" target="_blank" class="fab fa-whatsapp"> WhatssApp</a></li>
+                                    
+                                    <li><a href="https://m.me/darlinglich.rojasbazan" target="_blank" class="fab fa-facebook-messenger"> Messenger</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>    
+            </div>
+        </div>
+    
+        <div class="slide-contenedor">
+            <div class="miSlider fade">
+                <img src="img/banner1.jpg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="img/banner2.jpg" alt="">
+            </div>
+            <div class="miSlider fade">
+                <img src="img/banner3.jpg" alt="">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
